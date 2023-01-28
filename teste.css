@@ -1,4 +1,47 @@
-p{
+body {
+    
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background: #ee1313;
+    padding: 30px;
+
+}
+
+.hearder-tittle {
+    padding-left: 20px;
+}
+
+.benefits {
+    background: #FFFFFF;
+    padding: 20px;
+
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.benefits-img {
+    width: 50%;
+}
+
+.benefits-list {
+    font-style: italic;
+}
+
+p {
     text-align: center;
-    background: #cccccc;
+}
+
+.titulo-centralizado {
+    text-align: center;
+
 }
