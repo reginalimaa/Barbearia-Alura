@@ -1,29 +1,27 @@
 header{
     background: #BBBBBB;
-    padding: ;
+    padding: 10px 0 0;
 }
 
-.container{
+.container {
     position: relative;
     width: 940px;
     margin: 0 auto;
 }
 
-nav{
+nav {
     position: absolute;
     margin: 0 0 0 15px;
     top: 110px;
     right: 0;
-
-
 }
 
-nav li{
+nav li {
     display: inline;
-    
+    margin: 0 0 0 15px;
 }
 
-nav a{
+nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
@@ -31,31 +29,70 @@ nav a{
     text-decoration: none;
 }
 
-.services{
+nav a:hover {
+    color: #C78C19;
+}
+
+nav a:hover li {
+    font-size: 25px;
+}
+
+.services {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0; /*cimaBaixo, direita-esquerda*/
 }
 
-.services li{
+.services li {
     display: inline-block;
     width: 30%;
 
     text-align: center;
     vertical-align: top;
-    margin: 0 1.5px;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.services H2{
+.services li:hover {
+    border-color: #C78C19
+}
+
+.services li:active {
+    border-color: green;
+}
+
+.services li:hover h2{
+    font-size: 34px;
+}
+
+.services H2 {
     font-size: 30px;
     font-weight: bold;
 }
 
-.services-desc{
+.services-desc {
     font-size: 18px;
 }
 
-.services-price{
+.services-price {
     font-size: 22px;
     font-weight: bold;
+    padding-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url(img/bg.jpg);
+
+    padding: 40px 0;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
