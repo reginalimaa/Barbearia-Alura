@@ -46,7 +46,7 @@
             <input type="tel" id="telephone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
         
             <label for="mensagem">Mensagem</label>
-            <textarea cols="30" rows="10" name="" id="" cols="30" rows="10"></textarea>
+            <textarea class="input-padrao" cols="30" rows="10" name="" id="" cols="30" rows="10"></textarea>
             
             <fieldset>
                 <legend>Como prefere o nosso contato?</legend>
@@ -69,9 +69,32 @@
                 <input type="checkbox">
             </div>
 
-            <input type="submit" value="Enviar formulário">
+            <input class="bnt-send" type="submit" value="Enviar formulário">
         </form>
 
+
+        <table>
+            <thead>
+                <tr> <!– linha –>
+                    <th>Dia</th> <!– célula –>
+                    <th>Horários</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Segunda</th>
+                    <th>8h ~ 20h</th>
+                </tr>
+                <tr>
+                    <th>Quarta</th>
+                    <th>8h ~ 20h</th>
+                </tr>
+                <tr>
+                    <th>Sexta</th>
+                    <th> 5h ~ 20h</th>
+                </tr>
+            </tbody>
+        </table>
     </main>
 
     <footer>

@@ -24,3 +24,25 @@ main{
     margin: 20px 0;
 
 }
+
+.bnt-send {
+    width: 40%; /*aumentar a largura do botão*/
+    padding: 15px 0; /*espaçamento interno para cima e para baixo*/
+    background: orange;
+    color: white; /*mudar a cor do texto dentro do botão*/
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    /*transition: 1s background; para transição durar 1s no BACGROUND*/
+    transition: 1s all; /*a transição será para toda caixa*/
+    cursor: pointer; /*mudar a seta para a maozinha quando o mouse estiver por cima*/
+}
+
+.bnt-send:hover {
+    background: darkorange;
+    transform: scale(1.2); /*aumentar o tamanho em 20%(1.2)*/
+    /*transform: rotate(50deg);  /*inclinar o botão em 5 graus*/
+
+}
+
