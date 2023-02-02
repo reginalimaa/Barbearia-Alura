@@ -1,47 +1,37 @@
-body {
-    
-}
-
-#banner {
+.banner {
     width: 100%;
 }
 
-.principal {
-    background: #ee1313;
-    padding: 30px;
+main{
+    width: 940px;  
+    margin: auto;
+ }
 
+.title-prin {
+    text-align: center;
+    font-size: 2em; /*2em significa que o tamanho vai ser duas vezes maior que o texto base*/
+    margin: 0 0 1em; /*espaçamento proporcional a fonte (cima-baixo)*/
+    clear: left; /*Limpa o float*/
 }
 
-.hearder-tittle {
-    padding-left: 20px;
+.main-container-about p {
+    margin: 0 0 1em;
 }
 
-.benefits {
-    background: #FFFFFF;
-    padding: 20px;
-
+.main-container-about strong {
+    font-weight: bold;
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.benefits-img {
-    width: 50%;
-}
-
-.benefits-list {
+.main-container-about em {
     font-style: italic;
 }
 
-p {
-    text-align: center;
+.benefits-img {
+    width: 60%;
 }
 
-.titulo-centralizado {
-    text-align: center;
-
+.img-utensilios {
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
 }

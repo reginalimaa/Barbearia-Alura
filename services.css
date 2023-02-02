@@ -1,0 +1,46 @@
+.services {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0; /*cimaBaixo, direita-esquerda*/
+}
+
+.services li {
+    display: inline-block;
+    width: 30%;
+
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.services li:hover {
+    border-color: #C78C19
+}
+
+.services li:active {
+    border-color: green;
+}
+
+.services li:hover h2{
+    font-size: 34px;
+}
+
+.services H2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.services-desc {
+    font-size: 18px;
+}
+
+.services-price {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 10px;
+}
