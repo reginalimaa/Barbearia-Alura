@@ -35,3 +35,33 @@ main{
     float: left;
     margin: 0 20px 20px 0;
 }
+
+.maps {
+    padding: 3em 0 0;
+}
+
+.beneficios {
+    padding: 3em 0;
+}
+
+.maps p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.conteudo-beneficios {
+    background: ;
+    width: 640px;
+    margin: 0 auto; /*automatico*/
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto; /*centralizando(2em p cima e p baixo e automatico para os lados)*/
+}

@@ -27,7 +27,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #010101;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -40,7 +40,6 @@ nav a:hover {
 nav a:hover li {
     font-size: 25px;
 }
-
 
 footer {
     text-align: center;
