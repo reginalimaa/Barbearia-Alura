@@ -9,18 +9,18 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contact.css">
-
+    <link rel="stylesheet" href="responsive.css">
+    
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,400&display=swap" rel="stylesheet">
-
 </head>
-<body>
 
+<body>
     <header>
         <div class="header-container">
-            <a href="">
+            <div class="img-logo">
                 <img src="img/logo.png" alt="Logo da Barberia Alura">
-            </a>
+            </div>
             <nav>
                 <ul>
                     <a href="home.html">
@@ -37,8 +37,8 @@
         </div>
     </header>
 
-    <main>
-        <form action="">
+    <main class="main-contact">
+        <form width="100%" action="" >
             <label for="namelastname">Nome e sobrenome</label>
             <input type="text" id="nameLastname" class="input-padrao" required>
 
@@ -47,10 +47,10 @@
 
             <label for="telephone">Telefone</label>
             <input type="tel" id="telephone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
-        
+                
             <label for="mensagem">Mensagem</label>
             <textarea class="input-padrao" cols="30" rows="10" name="" id="" cols="30" rows="10"></textarea>
-            
+
             <fieldset>
                 <legend>Como prefere o nosso contato?</legend>
                 <label for="raio-email"><input type="radio" name="contact" value="email" id="radio-email">Email</label>                
@@ -74,8 +74,6 @@
 
             <input class="bnt-send" type="submit" value="Enviar formulário">
         </form>
-
-
         <table>
             <thead>
                 <tr> <!– linha –>

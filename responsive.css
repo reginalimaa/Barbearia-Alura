@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px) {
+    .header-container, .main-container-about, .mapa-center, .conteudo-beneficios, .services, .video, .main-contact {
+        width: auto;
+    }
+
+    .img-logo {
+		text-align: center;
+	}
+
+	nav, ul {
+		position: static;
+	}
+    .lista-beneficios, .benefits-img{
+		width: 100%;
+	}
+}
+
+
+

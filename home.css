@@ -1,10 +1,10 @@
+body {
+    background: #fefefe;
+}
+
 .banner {
     width: 100%;
 }
-
-main {
-    
- }
 
 .title-prin {
     text-align: center;
@@ -28,7 +28,6 @@ main {
 }
 
 .title-prin:after {
-
 }
 */
 
@@ -114,7 +113,6 @@ main {
     margin: 2em auto; /*centralizando(2em p cima e p baixo e automatico para os lados)*/
 }
 
-
  /* Seletores avançados
 main > p {
     background: blue;
@@ -133,22 +131,7 @@ img ~ p {
 }
 */
 
-@media screen and (max-width: 480px) {
-    .header-container, .main-container-about, .mapa-center, .conteudo-beneficios, .video{
-        width: auto;
-    }
 
-    h1 {
-		text-align: center;
-	}
-
-	nav {
-		position: static;
-	}
-    .lista-beneficios, .benefits-img {
-		width: 100%;
-	}
-}
 
 
 

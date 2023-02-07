@@ -9,18 +9,18 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="responsive.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,400&display=swap" rel="stylesheet">
-
 </head>
 <body>
-
     <header>
         <div class="header-container">
-            <a href="">
-                <img src="img/logo.png" alt="">
-            </a>
+            <div class="img-logo">
+                <img src="img/logo.png" alt="Logo da Barberia Alura">
+            </div>           
             <nav>
                 <ul>
                     <a href="home.html">
@@ -30,40 +30,43 @@
                         <li>Serviços</li>
                     </a>
                     <a href="contact.html">
-                        <li>Contatos</li>
+                        <li>Contato</li>
                     </a>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main>
-        <ul class="services">
-            <li>
-                <h2>Cabelo</h2>
-                <img src="img/barba.jpg" alt="">
-                <p class="services-desc">Na tesoura ou máquina, como o cliente preferir</p>
-                <p class="services-price">R$ 25,00</p>
-            </li>
-            <li>
-                <h2>Barba</h2>
-                <img src="img/cabelo.jpg" alt="">
-                <p class="services-desc">Corte e desenho profissional de barba</p>
-                <p class="services-price">R$ 18,00</p>
-            </li>
-            <li>
-                <h2>Cabelo + Barba</h2>
-                <img src="img/cabelo+barba.jpg" alt="">
-                <p class="services-desc">Pacote completo de cabelo e barba</p>
-                <p class="services-price">R$ 35,00</p>
-            </li>
-        </ul>
+    <main  class="services">
+        <ul>
+            <div class="services-container"  >
+                <div class="teste4">
+                <li>
+                    <h2>Cabelo</h2>
+                    <img src="img/barba.jpg" alt="" width="100%">
+                    <p class="services-desc">Na tesoura ou máquina, como o cliente preferir</p>
+                    <p class="services-price">R$ 25,00</p>
+                </li>
+                <li>
+                    <h2>Barba</h2>
+                    <img src="img/cabelo.jpg" alt="" width="100%">
+                    <p class="services-desc">Corte e desenho profissional de barba</p>
+                    <p class="services-price">R$ 18,00</p>
+                </li>
+                <li>
+                    <h2>Cabelo + Barba</h2>
+                    <img src="img/cabelo+barba.jpg" alt="" width="100%">
+                    <p class="services-desc">Pacote completo de cabelo e barba</p>
+                    <p class="services-price">R$ 35,00</p>
+                </li>
+                </div>
+            </div>
+        </ul>        
     </main>
 
     <footer>
         <img src="img/logo-branco.png" alt="">
         <p>&copy; Copyrigth Barbearia Alura - 2019</p>
-    </footer>
-    
+    </footer>  
 </body>
 </html>
